@@ -1,0 +1,32 @@
+{
+    "name": "inchoo/php7",
+    "type": "magento-module",
+    "description": "PHP 7 compatibility extension for Magento 1 by Inchoo",
+    "homepage": "https://inchoo.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Čurdinjaković"
+        },
+        {
+            "name": "Ivan Weiler"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Inchoo/Inchoo_PHP7/issues",
+        "wiki": "https://github.com/Inchoo/Inchoo_PHP7/wiki",
+        "source": "https://github.com/Inchoo/Inchoo_PHP7"
+    },
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "suggest": {
+        "phpseclib/mcrypt_compat": "PHP 5.x/7.x polyfill for mcrypt extension"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.firegento.com"
+        }
+    ]
+}

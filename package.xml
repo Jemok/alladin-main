@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Cminds_SupplierRedirection</name>
+    <version>1.0.2</version>
+    <stability>stable</stability>
+    <license>shareware</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Custom Rest Api methods</summary>
+    <description>Custom Rest Api methods</description>
+    <notes>- adjsuted to new navigation</notes>
+    <authors><author><name>CreativeMinds Solutions</name><user>CreativeMinds</user><email>support@cminds.com</email></author></authors>
+    <date>2017-11-02</date>
+    <time>09:04:11</time>
+    <contents><target name="magecommunity"><dir name="Cminds"><dir name="SupplierRedirection"><dir name="Block"><dir name="Adminhtml"><dir name="Customer"><file name="Tab.php" hash="7a037685306d80aa4477095f2f2a3015"/></dir></dir><file name="Domain.php" hash="445d8a370986a36958975af70b4a0956"/></dir><dir name="Model"><dir name="Adminhtml"><file name="Observer.php" hash="1e307ba59d44ea1772e6fdfc5974730c"/></dir><dir name="Mysql4"><file name="Setup.php" hash="33f670d6ad6b04713ad3f8ffdefb16ce"/></dir><file name="Observer.php" hash="89f62ef1174e6e0a4e512d9534e7f916"/><file name="Product.php" hash="177aa95df76776fb05c96ad24b0a2d50"/></dir><dir name="controllers"><file name="DomainController.php" hash="5ed9dc4e28aa34acbdad41a14ce42645"/></dir><dir name="etc"><file name="config.xml" hash="df7bd6f77fc35b4374061504408078ad"/></dir><dir name="sql"><dir name="cminds_supplierredirection"><file name="mysql4-install-1.0.0.php" hash="6e17e897b2372a046991af2ab4e1031d"/></dir></dir></dir></dir><dir name="Mage"><dir name="Core"><dir name="Controller"><dir name="Varien"><file name="Front.php" hash="2c1a0abf32efa7df4e6d51c7fff6ab81"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Cminds_SupplierRedirection.xml" hash="e15b65ac7a604124f7ce9ba31cbf530c"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="base"><dir name="default"><dir name="layout"><dir name="cminds"><file name="supplierredirection.xml" hash="14ee8700797e025d9db035aaf490fe2c"/></dir></dir><dir name="template"><dir name="cminds"><dir name="supplierredirection"><dir name="supplier"><dir name="edit"><file name="tab.phtml" hash="79b213d8c3dc8ed7cebaeda9f99f4f9c"/></dir></dir></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="cminds"><dir name="supplierredirection"><dir name="supplier"><dir name="domain"><file name="settings.phtml" hash="594c7458251ec495d37f427320a5a981"/></dir></dir></dir></dir></dir><dir name="layout"><dir name="cminds"><file name="supplierredirection.xml" hash="0d8e77b5cf21f651a8c553db08245932"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
